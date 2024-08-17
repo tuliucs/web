@@ -1,0 +1,48 @@
+.container{
+    background-color: aqua;
+    position: absolute;
+    left:25%;
+    top:12.5%;
+    width: 50%;
+    height: 75%;
+}
+.box{
+    width: 10%;
+    height: 10%;
+}
+.rojo {
+    background-color: red;
+    float:left;
+}
+.naranja {
+    float:left;
+    position: relative;
+    background-color: orange;
+}
+.verde {
+    float:left;
+    background-color: green;
+}
+.rosa{
+     background-color: pink;
+     display: inline-block;
+    z-index: 1;
+}
+.fucsia{
+    position:relative;
+    background-color: fuchsia;
+}
+.purpura{
+    left:10%;
+    background-color: purple;
+    position: relative;
+}
+.azul {
+    right: 10%;
+    position:absolute;
+    background-color: blue;
+}
+.amarillo{
+    float:rigth;
+    background-color: yellow;
+}

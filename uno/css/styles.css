@@ -14,7 +14,26 @@ header{
 }
 header ul {
     list-style-type: none;
-    
+}
+
+header #logo {
+    width: 100%;
+    position: absolute;
+    background-color: rgb(100,100,100);
+    float:left;
+}
+
+header #logo img{
+    float:right;
+    position:absolute;
+
+}
+#slogan{
+    position:relative;
+    margin-left: 5%;
+}
+ul li {
+    display: inline;
 }
 #main{
     position: relative;
